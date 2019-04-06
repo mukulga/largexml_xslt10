@@ -6,6 +6,7 @@
     
     <xsl:template match="/ProteinEntry">
        <ProteinEntry id="{@id}">
+          <!-- deep copy all elements below ProteinEntry element except the header element -->
           <xsl:copy-of select="*[not(self::header)]"/>
        </ProteinEntry>
     </xsl:template>

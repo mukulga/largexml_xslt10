@@ -5,6 +5,7 @@
     <xsl:output method="xml" indent="yes" omit-xml-declaration="yes"/>                               
     
     <xsl:template match="/ProteinEntry">
+       <!-- create a ProteinEntry element with an attribute, but it is otherwise empty --> 
        <ProteinEntry id="{@id}"/>
     </xsl:template>
     
