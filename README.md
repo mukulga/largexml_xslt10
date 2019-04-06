@@ -16,14 +16,11 @@ XML input file size (same for all the XSLT transforms mentioned below) == 683 MB
 
 Output characteristics, for one of the runs of XSLT transformation:
 
-1st transform (sample1.xsl) runtime : 4 mins 30 secs
-output file size == 7.25 MB
+1st transform (sample1.xsl) runtime : 4 mins 30 secs, output file size == 7.25 MB
 
-2nd transform (sample2.xsl) runtime : 4 mins 39 secs
-output file size == 64.9 MB
+2nd transform (sample2.xsl) runtime : 4 mins 39 secs, output file size == 64.9 MB
 
-3rd transform (sample3.xsl) runtime : 5 mins 19 secs
-output file size == 662 MB
+3rd transform (sample3.xsl) runtime : 5 mins 19 secs, output file size == 662 MB
 
 No memory usage spikes were observed, during above test runs.
 
