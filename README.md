@@ -39,7 +39,7 @@ No memory usage spikes were observed, during above test runs. The program run ti
 number of sibling record elements (which are 262525, in the XML input used).
 
 **Notes:**
-1) The line <!DOCTYPE ProteinDatabase SYSTEM "http://pir.georgetown.edu/pirwww/xml/002/psdml.dtd"> at the top of XML input document was commented, before using the XML input document.
+1) The line referring the DTD at the top of XML input document was commented, before using the XML input document.
 2) There is 15-20% CPU usage increase, due to antimalware service executable that additionally runs on the windows platform when the sample programs are run. If the user wouldn't have this issue, the XSLT transformation time will be even less than mentioned above.
 3) There is some serialization code written in the java program posted (in the file TransformBigXML), along with using the serialization implementation available within the XSLT processor.
 4) Other than the java version 1.8.0 that was used to test this implementation, certain lower versions of java language, and also higher
