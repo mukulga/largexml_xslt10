@@ -36,7 +36,7 @@ Output characteristics, for one of the runs of XSLT transformation:
 sample4.xsl : 4 mins 33 secs
 
 No memory usage spikes were observed, during above test runs. The program run time measured as mentioned above, grows linearly with the
-number of sibling record elements (which are 262525, in the XML input used).
+number of XML sibling related elements (which are 262525, in the XML document input used).
 
 **Notes:**
 1) The line referring the DTD at the top of XML input document was commented, before using the XML input document.
