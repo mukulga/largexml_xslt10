@@ -44,5 +44,5 @@ number of XML sibling related elements (which are 262525, in the XML document in
 3) There is some serialization code written in the java program posted (in the file TransformBigXML), along with using the serialization implementation available within the XSLT processor.
 4) Other than the java version 1.8.0 that was used to test this implementation, certain lower versions of java language, and also higher
 versions of java language can also be used to run the programs provided in this repository.
-5) The large sample XML document (psd7003.xml) used within this project, was used principly only because it was large in size, and not in any way because it belongs to a specific domain.
+5) The large sample XML document (psd7003.xml) used within this project, was used principly only because it was large in size (and it was discovered by a naive web search), and not in any way because it belongs to a specific domain. The developer of this project, doesn't claim any knowleadge about the domain of large sample XML document used in this project.
 6) It seems that, the results observed in this project are encouraging for doing XSLT 1.0 transformations on large XML input documents.
