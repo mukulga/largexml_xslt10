@@ -7,7 +7,7 @@ mentioned JRE.
 
 The code provided in this project, illustrates a way to do XSLT 1.0 transformations on very large XML input documents, using the typical 
 RAM and CPU resources available on most of current workstations. XSLT 1.0 transformations on very large XML input documents is usually very difficult to accomplish by various other means (for e.g, when the XML input is provided to an XSLT 1.0 processor via a DOM object or via SAX events). A large XML file (of about 683 MB) available at, http://aiweb.cs.washington.edu/research/projects/xmltk/xmldata/www/repository.html#pir (psd7003.xml) was used to test the code provided 
-in this project [please also refer to point 5) in **Notes:** section at bottom of this page].
+in this project [related information at point 5) in **Notes:** section at bottom of this page].
 
 The following performance characteristics were measured by this project:
 
